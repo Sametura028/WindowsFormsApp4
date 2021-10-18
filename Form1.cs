@@ -43,17 +43,17 @@ namespace WindowsFormsApp4
             if (pictureBox1.Left>=label1.Left)
             {
                 tmrsure.Enabled = false;
-                label1.Text="araba 1 kazandı";
+                label1.Text="araba 1 kazandı...";
             }
             else if (pictureBox2.Left >= label1.Left)
             {
                 tmrsure.Enabled = false;
-                label1.Text = "araba 2 kazandı";
+                label1.Text = "araba 2 kazandı...";
             }
             else if (pictureBox3.Left >= label1.Left)
             {
                 tmrsure.Enabled = false;
-                label1.Text = "araba 3 kazandı";
+                label1.Text = "araba 3 kazandı...";
             }
 
         }
