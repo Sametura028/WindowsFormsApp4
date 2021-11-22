@@ -37,7 +37,7 @@ namespace WindowsFormsApp4
           
             pictureBox1.Left += rastgele.Next(0, 15);
            
-            pictureBox2.Left +=  rastgele2.Next(0, 15);
+            pictureBox2.Left +=  rastgele.Next(0, 15);
         
                 pictureBox3.Left += rastgele.Next(0, 15);
             if (pictureBox1.Left>=label1.Left)
