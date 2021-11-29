@@ -62,5 +62,10 @@ namespace WindowsFormsApp4
         {
             tmrsure.Enabled = true;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
     }
 }

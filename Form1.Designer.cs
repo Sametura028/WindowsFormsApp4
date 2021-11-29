@@ -37,6 +37,7 @@ namespace WindowsFormsApp4
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -104,12 +105,23 @@ namespace WindowsFormsApp4
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(448, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 35);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "yeniden başlat";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp4.Properties.Resources.formula_1_34715;
             this.ClientSize = new System.Drawing.Size(970, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -137,6 +149,7 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button button2;
     }
 }
 
